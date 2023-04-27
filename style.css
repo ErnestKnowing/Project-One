@@ -14,19 +14,24 @@ header {
   width: 100%;
   height: 10%;
   margin-bottom: 10px;
-  background-color: rgb(187, 221, 221);
-  color: black;
+}
+.headNav {
+  background-color: #00bfff;
 }
 .headerUl {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row-reverse
+}
+.navigationHeader {
+  padding: 50px 8px 6px 4px;
+  font-size: 20px;
+  color: #030303;
 }
 ul {
   list-style-type: none;
 }
 li {
   font-family: Roboto, sans-serif;
-  font-size: 15px;
 }
 a {
   text-decoration: none;
@@ -44,6 +49,10 @@ a {
 }
 .right a:hover {
   color: #f1f1f1;
+}
+details:hover {
+  color: aliceblue;
+  cursor: pointer;
 }
 @media screen and(max-width:650px) {
   main {
