@@ -23,9 +23,9 @@ main {
 /*HEADER - ШАПКА*/
 header {
   text-align: justify;
-  height: 8em;
+  height: 5em;
   padding: 2em 5%;
-  background: #2c3e50;
+  background: #1e4fd6;
   color: #fff;
 }
 
@@ -58,7 +58,7 @@ header > div h1 {
   font-style: italic;
 }
 
-header nav a {
+header nav .navigationHeader {
   padding: 0 0.6em;
   white-space: nowrap;
 }
@@ -83,6 +83,7 @@ header nav a:last-child {
 }
 .navigationHeader{
   font-size: 20px;
+  color: #fff;
 }
 
 ul {
