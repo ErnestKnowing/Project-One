@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&family=Roboto:ital,wght@0,300;1,100&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <title>Game-Top</title>
   </head>
   <body>
@@ -18,9 +22,14 @@
       <header>
         <h1>Game World</h1>
         <nav>
-            <a class="navigationHeader" href="#">Главная</a>
-            <a class="navigationHeader" href="#">Новости</a>
-            <a class="navigationHeader" href="#">Обзоры</a>
+          <a class="navigationHeader" href="#"><span class="material-symbols-outlined icons">home</span>Главная</a>
+          <a class="navigationHeader" href="#"><span class="material-symbols-outlined">view_timeline</span>Новости</a>
+          <a class="navigationHeader" href="#"><span class="material-symbols-outlined">manage_search</span>Обзоры</a>
+        </nav>
+        <nav>
+          <a class="navigationHeader" href="#"><span class="material-symbols-outlined">circle_notifications</span></a>
+          <a class="navigationHeader" href="#"><span class="material-symbols-outlined icons">account_box</span>Профиль</a>
+          <a class="navigationHeader" href="#"><span class="material-symbols-outlined icons"> logout</span>Вход</a>
         </nav>
       </header>
       <main>
@@ -233,10 +242,15 @@
           </section>
         </section>
         <aside class="left">
-          <h2>Рекомендации для вас</h2>
+          <h2>Рекомендации для вас <span class="material-symbols-outlined">
+            thumb_up
+            </span></h2>
+          
         </aside>
       </main>
-      <footer>Подвал</footer>
+      <footer>Подвал<span class="material-symbols-outlined">
+        support_agent
+        </span></footer>
     </div>
   </body>
 </html>
