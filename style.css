@@ -18,7 +18,7 @@ body {
 main {
   display: flex;
   flex: 1;
-  background-color: darkgoldenrod;
+  background-color: #E27D60;
 }
 
 /*HEADER - ШАПКА*/
@@ -26,16 +26,14 @@ header {
   text-align: justify;
   height: 5em;
   padding: 2em 5%;
-  background: #1e4fd6;
+  background: #C38D9E;
   color: #fff;
 }
-
 header::after {
   content: "";
   display: inline-block;
   width: 100%;
 }
-
 header > div,
 header > div::before,
 header nav,
@@ -44,35 +42,28 @@ header > div h1 {
   vertical-align: middle;
   text-align: left;
 }
-
 header > div {
   height: 100%;
 }
-
 header > div::before {
   content: "";
   height: 100%;
 }
-
 header > div h1 {
   font-size: 3em;
   font-style: italic;
 }
-
 header nav .navigationHeader {
   padding: 0 0.6em;
   white-space: nowrap;
 }
-
 header nav a:last-child {
   padding-right: 0;
 }
-
 @media screen and (max-width: 720px) {
   header {
     height: auto;
   }
-
   header > div,
   header > div h1,
   header nav {
@@ -86,9 +77,7 @@ header nav a:last-child {
   font-size: 20px;
   color: #fff;
 }
-header nav .icons {
-  padding: 0 0.6em;
-}
+/*The end header*/
 
 
 ul {
@@ -167,7 +156,7 @@ summary {
 
 /*Side panels*/
 .right {
-  background-color: darkgoldenrod;
+  background-color: #E8A87C;
   overflow-x: hidden; /* Disable horizontal scroll */
 }
 
@@ -178,9 +167,20 @@ summary {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #E8A87C;
+  overflow-x: hidden;
 }
+/*Sections*/
+
 
 /*Footer*/
 footer {
-  background-color: yellow;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 10%;
+  background-color: #41B3A3;
+}
+footer:hover{
+height:  15%;
 }
