@@ -173,6 +173,18 @@ summary {
   background-color: #e8a87c;
   overflow-x: hidden;
 }
+/*Survey*/
+form {
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+fieldset {
+  border: none;
+}
 /*Sections*/
 /*Chat*/
 .comment{
