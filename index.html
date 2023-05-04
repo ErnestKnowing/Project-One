@@ -490,10 +490,11 @@
                 <label for='number' id='number-label'>Возраст<input id='number' type="number" name="age" min="13" max="120" placeholder="Age"></label>
                 <label for='dropdown'>Какое колличество времени вы тратите на игры?
                   <select id="dropdown">
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
+                    <option disabled selected value>Выберите верное утверждения для вас.</option>
+                    <option value="more">Больше 6-ти часов в день.</option>
+                    <option value="middle">Больше 2-х часов в день</option>
+                    <option value="less">Не более 1-го часа в день</option>
+                    <option value="nothing">Я вообще не играю</option>
                   </select>
               </fieldset>
             </form>
