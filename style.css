@@ -161,7 +161,6 @@ summary {
 /*Side panels*/
 .right {
   background-color: #e8a87c;
-  overflow-y: scroll;
 }
 
 .left {
@@ -176,7 +175,14 @@ summary {
 }
 /*Sections*/
 /*Chat*/
-.comment{position:relative;border-top:1px solid rgba(0,0,0,.03);-webkit-box-shadow:0 .125rem .25rem rgba(0,0,0,.075);box-shadow:0 .125rem .25rem rgba(0,0,0,.075);border-radius:.5rem;overflow:hidden}
+.comment{
+  position:relative;
+  border-top:1px solid rgba(0,0,0,.03);
+  -webkit-box-shadow:0 .125rem .25rem rgba(0,0,0,.075);
+  box-shadow:0 .125rem .25rem rgba(0,0,0,.075);
+  border-radius:.5rem;
+  overflow:hidden;
+}
 .card-row {
   display: block;
   font-size: 0.875rem;
