@@ -143,6 +143,10 @@ h2 {
   font-size: 25px;
   text-align: center;
 }
+h3{
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
 
 p {
   font-family: Roboto, sans-serif;
@@ -196,4 +200,15 @@ footer:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/*switch*/
+.switch{
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  transition: all linear 0.50s;
+}
+.switch:hover{
+  color: #5c1ab3;
+  transition: 1s linear;
 }
