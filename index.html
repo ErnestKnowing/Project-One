@@ -483,7 +483,7 @@
             <h3>
               Опрос
             </h3>
-            <form action=''>
+            <form>
               <fieldset>
                 <label for='name' id='name-label'>Имя<input id='name' type='text' placeholder="Enter your Name" required></label>
                 <label for='email' id='email-label'>Почта<input id='email' name='email' type='email' required placeholder='Enter your Email'></label>
@@ -496,14 +496,15 @@
                     <option value="less">Не более 1-го часа в день</option>
                     <option value="nothing">Я вообще не играю</option>
                   </select>
+                </label>
               </fieldset>
               <fieldset>
                 <p>Какой жанр игр вам нравиться?</p>
-                <label for="definitely"><input id="definitely" type='checkbox' value="a1" name="group1">Шутеры</label>
-                <label for="definitely"><input id="definitely" type='checkbox' value="a2" name="group1">Стратегии</label>
-                <label for="definitely"><input id="definitely" type='checkbox' value="a3" name="group1">RPG</label>
-                <label for="definitely"><input id="definitely" type='checkbox' value="a4" name="group1">Симуляторы</label>
-                <label for="definitely"><input id="definitely" type='checkbox' value="a5" name="group1">Другое</label>
+                <label for="shooters"><input id="shooters" type='checkbox' value="a1" name="group1">Шутеры</label>
+                <label for="strategies"><input id="strategies" type='checkbox' value="a2" name="group1">Стратегии</label>
+                <label for="rpg"><input id="rpg" type='checkbox' value="a3" name="group1">RPG</label>
+                <label for="simulators"><input id="simulators" type='checkbox' value="a4" name="group1">Симуляторы</label>
+                <label for="other"><input id="other" type='checkbox' value="a5" name="group1">Другое</label>
               </fieldset>
               <fieldset>
                 <p>Какая ваша самая любимая игра?</p>
