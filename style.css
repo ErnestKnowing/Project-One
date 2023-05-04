@@ -186,7 +186,7 @@ fieldset {
   border: none;
 }
 #submit {
-  background-color: green;
+  background-color: rgb(6, 99, 6);
   color: white;
   border: none;
   border-radius: 25px;
