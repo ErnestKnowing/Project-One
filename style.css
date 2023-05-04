@@ -185,15 +185,30 @@ label {
 fieldset {
   border: none;
 }
+#submit {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  height: 35px;
+  width: 100%;
+}
+select {
+  width: 100%;
+  height: 25px;
+}
+textarea {
+  width: 100%;
+}
 /*Sections*/
 /*Chat*/
-.comment{
-  position:relative;
-  border-top:1px solid rgba(0,0,0,.03);
-  -webkit-box-shadow:0 .125rem .25rem rgba(0,0,0,.075);
-  box-shadow:0 .125rem .25rem rgba(0,0,0,.075);
-  border-radius:.5rem;
-  overflow:hidden;
+.comment {
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.03);
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 .card-row {
   display: block;

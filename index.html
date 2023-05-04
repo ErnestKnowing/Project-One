@@ -488,7 +488,8 @@
                 <label for='name' id='name-label'>Имя<input id='name' type='text' placeholder="Enter your Name" required></label>
                 <label for='email' id='email-label'>Почта<input id='email' name='email' type='email' required placeholder='Enter your Email'></label>
                 <label for='number' id='number-label'>Возраст<input id='number' type="number" name="age" min="13" max="120" placeholder="Age"></label>
-                <label for='dropdown'>Какое колличество времени вы тратите на игры?
+                <label for='dropdown'>
+                  <p>Какое колличество времени вы тратите на игры?</p>
                   <select id="dropdown">
                     <option disabled selected value>Выберите верное утверждения для вас.</option>
                     <option value="more">Больше 6-ти часов в день.</option>
@@ -513,6 +514,8 @@
                 <label for="daysG"><input id="daysG" type='radio' value="b3" name="group2">Days Gone</label>
                 <label for="stranding"><input id="stranding" type='radio' value="b4" name="group2">Death Stranding</label>
                 <label for="dawn"><input id="dawn" type='radio' value="b5" name="group2">Horizon Zero Dawn</label>
+                <label for="comment">Any comments or suggestions?<textarea id="comment" name="comment" rows="3" cols="30" placeholder="Enter your comment here..."></textarea></label>
+                <input id="submit" type="submit" value="Submit">
               </fieldset>
             </form>
           </div>
