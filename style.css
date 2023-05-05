@@ -23,7 +23,7 @@ header {
   text-align: justify;
   height: 5em;
   padding: 2em 5%;
-  background: #c38d9e;
+  background: #41B3A3;
   color: #fff;
   font-family: "Lato", sans-serif;
 }
@@ -161,6 +161,11 @@ summary {
 /*Side panels*/
 .right {
   background-color: #e8a87c;
+  transition: all linear 0.5s;
+}
+.right:hover {
+  background-color: #e27d60;
+  transition: 1s linear;
 }
 
 .left {
@@ -173,6 +178,11 @@ summary {
   background-color: #e8a87c;
   overflow-x: hidden;
   height: auto;
+  transition: all linear 0.5s;
+}
+.left:hover {
+  background-color: #e27d60;
+  transition: 1s linear;
 }
 /*Survey*/
 form {
@@ -277,4 +287,56 @@ footer:hover {
 .switch:hover {
   color: #5c1ab3;
   transition: 1s linear;
+}
+
+/*My Form*/
+
+/* Всплывающая форма-скрыта по умолчанию */
+.form-popup {
+  display: none;
+  position: relative;
+}
+
+/* Добавить стили для контейнера формы */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Поля ввода полной ширины */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Когда входы получают фокус, сделайте что-нибудь */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Установите стиль для кнопки отправить/войти */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Добавить красный цвет фона для кнопки "Отмена" */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Добавить некоторые эффекты наведения на кнопки */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
