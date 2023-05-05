@@ -172,6 +172,7 @@ summary {
   justify-content: space-between;
   background-color: #e8a87c;
   overflow-x: hidden;
+  height: auto;
 }
 /*Survey*/
 form {
