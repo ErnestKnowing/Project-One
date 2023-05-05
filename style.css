@@ -23,7 +23,7 @@ header {
   text-align: justify;
   height: 5em;
   padding: 2em 5%;
-  background: #41B3A3;
+  background: #41b3a3;
   color: #fff;
   font-family: Roboto, sans-serif;
 }
@@ -75,6 +75,7 @@ header nav a:last-child {
   font-size: 20px;
   color: #fff;
   transition: all linear 0.5s;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 }
 .navigationHeader:hover {
   color: #e44b21;
@@ -138,6 +139,12 @@ h1 {
   font-size: 35px;
   text-align: center;
 }
+.titl {
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
 
 h2 {
   font-family: Roboto, sans-serif;
@@ -188,6 +195,10 @@ summary {
   transition: 1s linear;
 }
 /*Survey*/
+
+.survey{
+  padding-left: 10px;
+}
 form {
   margin: 0 auto;
 }
@@ -316,7 +327,8 @@ footer:hover {
 }
 
 /* Поля ввода полной ширины */
-.form-container input[type=text], .form-container input[type=password] {
+.form-container input[type="text"],
+.form-container input[type="password"] {
   width: 90%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -325,20 +337,21 @@ footer:hover {
 }
 
 /* Когда входы получают фокус, сделайте что-нибудь */
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
 
 /* Установите стиль для кнопки отправить/войти */
 .form-container .btn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
   width: 100%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   opacity: 0.8;
 }
 
@@ -348,12 +361,13 @@ footer:hover {
 }
 
 /* Добавить некоторые эффекты наведения на кнопки */
-.form-container .btn:hover, .open-button:hover {
+.form-container .btn:hover,
+.open-button:hover {
   opacity: 1;
 }
 
 /*IMG*/
 .lastOneImg {
-  border-radius: 30px;  /* Скругление углов изображения */
+  border-radius: 30px; /* Скругление углов изображения */
   box-shadow: 3px 2px 20px #181717; /* Цвет и размер тени */
 }
