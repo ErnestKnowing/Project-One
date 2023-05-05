@@ -346,3 +346,9 @@ footer:hover {
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+/*IMG*/
+.lastOneImg {
+  border-radius: 30px;  /* Скругление углов изображения */
+  box-shadow: 3px 2px 20px #181717; /* Цвет и размер тени */
+}
