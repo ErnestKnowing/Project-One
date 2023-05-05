@@ -45,7 +45,7 @@
             ><span class="material-symbols-outlined">account_box</span
             >Профиль</a
           >
-          <a class="navigationHeader" href="#" onclick="openForm()"
+          <a class="navigationHeader" id="reg" href="#" onclick="openForm()"
             ><span class="material-symbols-outlined open-button"> logout</span>Регистрация</a
           >
         </nav>
@@ -81,7 +81,7 @@
           <!--My Form-->
         <div class="form-popup" id="myForm">
           <form action="/action_page.php" class="form-container">
-            <h1>Логин</h1>
+            <h3>Логин</h3>
         
             <label for="email"><b>Почта</b></label>
             <input type="text" placeholder="Введите Почту" name="email" required>
@@ -494,7 +494,7 @@
                 </div>
               </div>
               <label for="comment">Начните обсуждение.<textarea id="comment" name="comment" rows="3" cols="30" placeholder="Бумага не краснеет..."></textarea></label>
-              <a href='#'><input id="submit" type="submit" value="Отправить"></a>
+              <a href='#'><input id="submit" type="submit" href="#" onclick="openForm()" value="Отправить"></a>
             </div>
           </div>
           <div class="survey">

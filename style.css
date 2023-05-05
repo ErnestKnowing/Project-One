@@ -303,6 +303,11 @@ footer:hover {
   max-width: 300px;
   padding: 10px;
   background-color: white;
+  transition: all linear 0.5s;
+}
+.form-container:hover {
+  background-color: #28bda9;
+  transition: 1s linear;
 }
 
 /* Поля ввода полной ширины */
@@ -334,7 +339,7 @@ footer:hover {
 
 /* Добавить красный цвет фона для кнопки "Отмена" */
 .form-container .cancel {
-  background-color: red;
+  background-color: rgb(192, 66, 66);
 }
 
 /* Добавить некоторые эффекты наведения на кнопки */
