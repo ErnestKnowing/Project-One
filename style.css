@@ -158,6 +158,11 @@ h3 {
   text-align: center;
   padding-bottom: 5px;
 }
+.chatAside{
+  font-size: 18px;
+  font-weight: 500;
+}
+
 
 p {
   font-family: Roboto, sans-serif;
@@ -243,6 +248,14 @@ textarea {
   padding-bottom: 0.5rem;
   line-height: 1.3;
   overflow: hidden;
+  transition: all linear 0.5s;
+  border: 1px solid #6d6565;
+  border-radius: 10px;
+}
+.card-row:hover{
+  border: 1px solid rgb(253, 253, 253);
+  transition: 1s linear;
+  cursor: pointer;
 }
 .author {
   display: -webkit-box;
