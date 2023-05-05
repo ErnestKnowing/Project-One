@@ -93,6 +93,7 @@ a {
 }
 .experement {
   position: fixed;
+  padding-left: 20px;
 }
 .navigatorAside {
   padding: 50px 8px 6px 4px;
@@ -220,6 +221,7 @@ textarea {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   border-radius: 0.5rem;
   overflow: hidden;
+  padding-left: 20px;
 }
 .card-row {
   display: block;
@@ -283,6 +285,7 @@ footer:hover {
   color: #fff;
   font-family: Roboto, sans-serif;
   transition: all linear 0.5s;
+  cursor: pointer;
 }
 .switch:hover {
   color: #5c1ab3;
