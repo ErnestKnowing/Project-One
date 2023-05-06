@@ -111,10 +111,11 @@ a {
 }
 .experement {
   position: fixed;
-  padding-left: 20px;
+  width: 250px;
+  
 }
 .navigatorAside {
-  padding: 50px 8px 6px 4px;
+  padding: 15px 8px 6px 20px;
   font-size: 20px;
   color: #030303;
   display: flex;
@@ -197,6 +198,14 @@ summary {
 .right:hover {
   background-color: #ca441f;
   transition: 1s linear;
+}
+.recomen{
+  margin-top: 20px;
+}
+.navigationRecom {
+  color: #fff;
+  font-family:Roboto, sans-serif;
+  font-size: 20px;
 }
 
 .left {
