@@ -147,6 +147,19 @@ aside {
   flex: 1;
   border-radius: 20px;
 }
+aside:hover {
+  /* Запустите анимацию встряхивания и сделайте так, чтобы анимация длилась 0,5 секунды */
+  animation: shakeAside 1s;
+
+  /* Когда анимация будет закончена, начните снова */
+  /* animation-iteration-count: 0.5s; */
+}
+@keyframes shakeAside {  
+  0% { transform: translate(1px, 5px)}
+  33% { transform: translate(5px, 3px)}
+  66% { transform: translate(-2px, 3px)}
+  100% { transform: translate(4px, -2px)}
+}
 section {
   flex: 3;
 }
@@ -190,6 +203,12 @@ h1 {
   font-size: 50px;
   text-align: center;
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
+  transition: all linear 0.5s;
+}
+.titl:hover{
+  animation: shake 0.5s;
+  transition: 1s linear;
+  cursor: pointer;
 }
 
 h2 {
