@@ -40,9 +40,14 @@ header {
   text-align: justify;
   height: 5em;
   padding: 2em 5%;
-  background: #41b3a3;
+  background: #b3563d;
   color: #fff;
   font-family: Roboto, sans-serif;
+  transition: all linear 0.5s;
+}
+header:hover{
+  background-color: #ca441f;
+  transition: 1s linear;
 }
 header::after {
   content: "";
@@ -95,7 +100,7 @@ header nav a:last-child {
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
 }
 .navigationHeader:hover {
-  color: #e44b21;
+  color: #26ad9b;
   transition: 1s linear;
 }
 /*The end header*/
@@ -140,6 +145,7 @@ details:hover {
 }
 aside {
   flex: 1;
+  border-radius: 20px;
 }
 section {
   flex: 3;
@@ -214,7 +220,7 @@ summary {
 
 /*Side panels*/
 .right {
-  background-color: #e8a87c;
+  background-color: #c06b32;
   transition: all linear 0.5s;
 }
 .right:hover {
@@ -242,7 +248,7 @@ summary {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #e8a87c;
+  background-color: #c06b32;
   overflow-x: hidden;
   height: auto;
   transition: all linear 0.5s;
@@ -310,6 +316,7 @@ textarea {
   border-radius: 10px;
   transition: 1s linear;
   cursor: pointer;
+  font-size: 0.95rem
 }
 .author {
   display: -webkit-box;
@@ -339,7 +346,7 @@ footer {
   height: 2em;
   padding: 1em 5%;
   color: #fff;
-  background-color: #28af9d;
+  background-color: #b3563d;
   transition: all linear 0.5s;
   font-family: Roboto, sans-serif;
 }
