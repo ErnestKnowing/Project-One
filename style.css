@@ -296,7 +296,7 @@ label {
 fieldset {
   border: none;
 }
-#submit {
+#submit, #submitOne {
   background-color: rgb(6, 99, 6);
   color: white;
   border: none;
