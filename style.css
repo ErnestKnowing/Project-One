@@ -171,7 +171,7 @@ section {
     border: 3px solid rgb(0, 0, 0);
   }
   10%, 30%, 50%, 70%, 90%{
-    border: 3px solid white;
+    border: 3px solid #ca441f;
   }
 }
 .lastOneImg:hover {
@@ -292,7 +292,7 @@ summary {
 /*Survey*/
 
 .survey {
-  padding-left: 10px;
+  padding-left: 2px;
   border: 2px solid white;
   border-radius: 20px;
 }
