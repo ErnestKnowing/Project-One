@@ -293,6 +293,27 @@ summary {
 
 .survey {
   padding-left: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.surveyContainer{
+  transition: all linear 1s;
+}
+.surveyContainer:hover{
+  transition: 1s linear;
+  background-color: #c06b32;
+  border-radius: 20px;
+}
+textarea{
+  transition: all linear 1s;
+  background-color: white;
+}
+textarea:hover{
+  transition: 1s linear;
+  background-color: rgb(197, 196, 143);
+}
+option{
+  border-radius: 20px;
 }
 form {
   margin: 0 auto;
@@ -336,7 +357,7 @@ input{
   transition: all linear 0.5s;
 }
 input:hover{
-  background-color: #030303;
+  background-color: #fdef25;
   transition: 1s linear;
   cursor: pointer;
 }
