@@ -527,12 +527,13 @@ footer:hover {
 /* Добавить стили для контейнера формы */
 .form-container {
   max-width: 300px;
-  padding: 10px;
-  background-color: rgb(238, 255, 162);
+  padding: 8px;
+  background-color: #F5F5DC;
   transition: all linear 0.5s;
+  border-radius: 20px;
 }
 .form-container:hover {
-  background-color: #ffc0c0;
+  background-color: #81bcb4;
   transition: 1s linear;
 }
 
@@ -540,10 +541,11 @@ footer:hover {
 .form-container input[type="text"],
 .form-container input[type="password"] {
   width: 90%;
-  padding: 15px;
+  padding: 10px;
   margin: 5px 0 22px 0;
   border: none;
   background: #f1f1f1;
+  border-radius: 20px;
 }
 
 /* Когда входы получают фокус, сделайте что-нибудь */
@@ -563,6 +565,7 @@ footer:hover {
   width: 100%;
   margin-bottom: 10px;
   opacity: 0.8;
+  border-radius: 20px;
 }
 
 /* Добавить красный цвет фона для кнопки "Отмена" */
