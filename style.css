@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +8,11 @@
 *::after {
   box-sizing: border-box;
 }
+/*Плавная прокрутка*/
+html {
+  scroll-behavior: smooth;
+}
+/* межбуквенное расстояние в тексте */
 body {
   letter-spacing: 1px;
 }
@@ -16,17 +22,14 @@ body {
   height: 5px; /* высота для горизонтального скролла */
   background-color: #ca441f;
 }
-
 /* ползунок скроллбара */
 ::-webkit-scrollbar-thumb {
   background-color: #e8a87c;
   border-radius: 5em;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a56553;
 }
-
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -329,10 +332,9 @@ summary {
   transition: 1s linear;
   /* animation: shakeAside 1s; */
 }
-/*Survey*/
 
+/*Survey- Опросник*/
 .survey {
-  padding-left: 2px;
   border: 2px solid white;
   border-radius: 20px;
 }
@@ -352,13 +354,10 @@ textarea:hover {
   transition: 1s linear;
   background-color: rgb(197, 196, 143);
 }
-option {
-  border-radius: 20px;
-}
+
 form {
   margin: 0 auto;
 }
-
 label {
   display: block;
   margin: 0.5rem 0;
@@ -376,6 +375,7 @@ fieldset {
   width: 100%;
   transition: all linear 0.5s;
 }
+
 #submit:hover,
 #submitOne:hover {
   background-color: rgb(255, 255, 255);
@@ -389,8 +389,10 @@ fieldset {
   cursor: pointer;
 }
 select {
-  width: 100%;
-  height: 25px;
+  width:225px;
+  height:25px;
+  background:white;
+  border: 2px solid black
 }
 textarea {
   width: 97%;
@@ -403,29 +405,24 @@ input:hover {
   transition: 1s linear;
   cursor: pointer;
 }
-input[type="text"] {
-  font-family: inherit; /* 1 */
-  font-size: inherit; /* 1 */
-  line-height: inherit; /* 1 */
-  margin: 0; /* 2 */
-}
+
 input::placeholder {
-  color: #212529;
-  opacity: 0.4;
+  color: #000000;
+  opacity: 0.9;
 }
 input {
   font-family: inherit;
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #bdbdbd;
+  color: #000000;
+  border: 1px solid #000000;
   border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+/*Конец-The end-Survey- Опросник*/
+
 /*Sections*/
+
 /*Chat*/
 .comment {
   position: relative;
@@ -518,7 +515,7 @@ footer:hover {
   transition: 1s linear;
 }
 
-/*My Form*/
+/*My Form - Регистрация*/
 
 /* Всплывающая форма-скрыта по умолчанию */
 .form-popup {
