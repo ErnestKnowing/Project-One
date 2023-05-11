@@ -3,6 +3,10 @@
   padding: 0;
   margin: 0;
 }
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   letter-spacing: 1px;
 }
@@ -17,7 +21,6 @@ body {
 ::-webkit-scrollbar-thumb {
   background-color: #e8a87c;
   border-radius: 5em;
-  
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -42,10 +45,10 @@ header {
   padding: 2em 5%;
   background: #b3563d;
   color: #fff;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   transition: all linear 0.5s;
 }
-header:hover{
+header:hover {
   background-color: #ca441f;
   transition: 1s linear;
 }
@@ -109,7 +112,7 @@ ul {
   list-style-type: none;
 }
 li {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 a {
   text-decoration: none;
@@ -117,7 +120,6 @@ a {
 .experement {
   position: fixed;
   width: 250px;
-  
 }
 .navigatorAside {
   padding: 15px 8px 6px 20px;
@@ -148,11 +150,19 @@ aside {
   border-radius: 20px;
 }
 
-@keyframes shakeAside {  
-  0% { transform: translate(1px, 5px)}
-  33% { transform: translate(5px, 3px)}
-  66% { transform: translate(-2px, 3px)}
-  100% { transform: translate(4px, -2px)}
+@keyframes shakeAside {
+  0% {
+    transform: translate(1px, 5px);
+  }
+  33% {
+    transform: translate(5px, 3px);
+  }
+  66% {
+    transform: translate(-2px, 3px);
+  }
+  100% {
+    transform: translate(4px, -2px);
+  }
 }
 section {
   flex: 3;
@@ -167,69 +177,100 @@ section {
   animation: imgBorderAnimation 10s infinite;
 }
 @keyframes imgBorderAnimation {
-  0%, 20%, 40%, 60%, 80%, 100%{
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
     border: 3px solid rgb(0, 0, 0);
   }
-  10%, 30%, 50%, 70%, 90%{
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
     border: 3px solid #ca441f;
   }
 }
 .lastOneImg:hover {
-/* Запустите анимацию встряхивания и сделайте так, чтобы анимация длилась 0,5 секунды */
+  /* Запустите анимацию встряхивания и сделайте так, чтобы анимация длилась 0,5 секунды */
   /* animation: shake 0.5s; */
   cursor: pointer;
-/* Когда анимация будет закончена, начните снова */
+  /* Когда анимация будет закончена, начните снова */
   /* animation-iteration-count: 0.5s; */
-} 
-.gifLast{
+}
+.gifLast {
   max-width: 100%;
   height: auto;
   border-radius: 30px;
 }
-.lastGif{
+.lastGif {
   text-align: center;
 }
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 /*TEXT*/
 h1 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 35px;
   text-align: center;
 }
 .titl {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 50px;
   text-align: center;
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
   transition: all linear 0.5s;
 }
-.titl:hover{
+.titl:hover {
   animation: shake 0.5s;
   transition: 1s linear;
   cursor: pointer;
 }
 
 h2 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 25px;
   padding-bottom: 10px;
   text-align: center;
 }
 h3 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-align: center;
   padding-bottom: 5px;
@@ -240,11 +281,11 @@ h3 {
 }
 
 p {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 summary {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 
@@ -256,18 +297,17 @@ summary {
 .right:hover {
   background-color: #ca441f;
   transition: 1s linear;
-  
 }
-.recomen{
+.recomen {
   margin-top: 20px;
 }
 .navigationRecom {
   color: #fff;
-  font-family:Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   transition: all linear 0.5s;
 }
-.navigationRecom:hover{
+.navigationRecom:hover {
   color: #440597;
   transition: 1s linear;
 }
@@ -296,23 +336,23 @@ summary {
   border: 2px solid white;
   border-radius: 20px;
 }
-.surveyContainer{
+.surveyContainer {
   transition: all linear 1s;
 }
-.surveyContainer:hover{
+.surveyContainer:hover {
   transition: 1s linear;
   background-color: #c06b32;
   border-radius: 20px;
 }
-textarea{
+textarea {
   transition: all linear 1s;
   background-color: white;
 }
-textarea:hover{
+textarea:hover {
   transition: 1s linear;
   background-color: rgb(197, 196, 143);
 }
-option{
+option {
   border-radius: 20px;
 }
 form {
@@ -326,7 +366,8 @@ label {
 fieldset {
   border: none;
 }
-#submit, #submitOne {
+#submit,
+#submitOne {
   background-color: rgb(0, 0, 0);
   color: white;
   border: none;
@@ -335,7 +376,8 @@ fieldset {
   width: 100%;
   transition: all linear 0.5s;
 }
-#submit:hover, #submitOne:hover {
+#submit:hover,
+#submitOne:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 25px;
@@ -351,15 +393,37 @@ select {
   height: 25px;
 }
 textarea {
-  width: 100%;
+  width: 97%;
 }
-input{
+input {
   transition: all linear 0.5s;
 }
-input:hover{
-  background-color: #fdef25;
+input:hover {
+  background-color: #f3eb73;
   transition: 1s linear;
   cursor: pointer;
+}
+input[type="text"] {
+  font-family: inherit; /* 1 */
+  font-size: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  margin: 0; /* 2 */
+}
+input::placeholder {
+  color: #212529;
+  opacity: 0.4;
+}
+input {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 /*Sections*/
 /*Chat*/
@@ -391,7 +455,7 @@ input:hover{
   border-radius: 10px;
   transition: 1s linear;
   cursor: pointer;
-  font-size: 0.95rem
+  font-size: 0.95rem;
 }
 .author {
   display: -webkit-box;
@@ -423,7 +487,7 @@ footer {
   color: #fff;
   background-color: #b3563d;
   transition: all linear 0.5s;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 footer:hover {
   background-color: #ca441f;
@@ -445,7 +509,7 @@ footer:hover {
 /*switch*/
 .switch {
   color: #fff;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   transition: all linear 0.5s;
   cursor: pointer;
 }
@@ -514,5 +578,3 @@ footer:hover {
 .open-button:hover {
   opacity: 1;
 }
-
-
