@@ -309,6 +309,8 @@ summary {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   transition: all linear 0.5s;
+  padding: 5px;
+  padding-left: 10px;
 }
 .navigationRecom:hover {
   color: #440597;
@@ -528,7 +530,7 @@ footer:hover {
 .form-container {
   max-width: 300px;
   padding: 8px;
-  background-color: #F5F5DC;
+  background-color: #9ebdb8;
   transition: all linear 0.5s;
   border-radius: 20px;
 }
