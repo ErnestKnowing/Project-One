@@ -37,19 +37,15 @@
           >
         </nav>
         <nav>
-          <a class="navigationHeader" href="#"
-            ><span class="material-symbols-outlined"
-              >circle_notifications</span
-            ></a
-          >
-          <a class="navigationHeader" href="#"
-            ><span class="material-symbols-outlined">account_box</span
-            >Профиль</a
-          >
-          <a class="navigationHeader" href="#" onclick="openForm()"
-            ><span class="material-symbols-outlined"> logout</span
-            >Регистрация</a
-          >
+          <a class="navigationHeader" href="#">
+            <span class="material-symbols-outlined">circle_notifications</span>
+          </a>
+          <a class="navigationHeader" href="#" onclick="openFormEntrance()">
+            <span class="material-symbols-outlined">account_box</span>Профиль
+          </a>
+          <a class="navigationHeader" href="#" onclick="openForm()">
+            <span class="material-symbols-outlined"> logout</span>Регистрация
+          </a>
         </nav>
       </header>
       <main>
@@ -84,20 +80,32 @@
           </div>
         </aside>
         <section>
-          <!--My Form-->
-          <div class="form-popup" id="myForm">
-            <form action="/action_page.php" class="form-container">
-              <h3>Регистрация</h3>
-              <label for="name-profile"><b>Имя</b></label>
-              <input type="text" placeholder="Введите Имя" name="name-profile" required>
-              <label for="email"><b>Почта</b></label>
-              <input type="text" placeholder="Введите Почту" name="email" required/>
-              <label for="psw"><b>Пароль</b></label>
-              <input type="password" placeholder="Введите Пароль" name="psw" required/>
-              <button type="submit" class="btn">Отправить</button>
-              <button type="submit" class="btn cancel" onclick="closeForm()">Закрыть</button>
-            </form>
-          </div>
+          <!--Registration-->
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h3>Регистрация</h3>
+            <label for="name-profile"><b>Имя</b></label>
+            <input type="text" placeholder="Введите Имя" name="name-profile" required>
+            <label for="email"><b>Почта</b></label>
+            <input type="text" placeholder="Введите Почту" name="email" required>
+            <label for="psw"><b>Пароль</b></label>
+            <input type="password" placeholder="Введите Пароль" name="psw" required>
+            <button type="submit" class="btn">Отправить</button>
+            <button type="submit" class="btn cancel" onclick="closeForm()">Закрыть</button>
+          </form>
+        </div>
+        <!--Entrance-->
+        <div class="form-popup" id="myFormEntrance">
+          <form action="/action_page.php" class="form-container">
+            <h3>Вход</h3>
+            <label for="name-profile"><b>Имя</b></label>
+            <input type="text" placeholder="Введите Имя" name="name-profile" required>
+            <label for="psw"><b>Пароль</b></label>
+            <input type="password" placeholder="Введите Пароль" name="psw" required>
+            <button type="submit" class="btn">Отправить</button>
+            <button type="submit" class="btn cancel" onclick="closeFormEntrance()">Закрыть</button>
+          </form>
+        </div>
           <h2>Обзоры</h2>
           <section class="TheLastofUs">
             <h2 id="part1">The Last of Us Part II</h2>
