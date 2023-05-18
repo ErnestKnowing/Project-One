@@ -1,7 +1,10 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
 }
+
 *::before,
 *::after {
   box-sizing: border-box;
@@ -42,12 +45,12 @@ main {
 /*HEADER - ШАПКА*/
 header {
   text-align: justify;
-  height: 5em;
   padding: 2em 5%;
   background: #b3563d;
   color: #fff;
   font-family: "Roboto", sans-serif;
   transition: all linear 0.5s;
+  height: 25%;
 }
 header:hover {
   background-color: #ca441f;
@@ -118,10 +121,10 @@ h1 {
 
 .titl {
   font-family: "Roboto", sans-serif;
-  font-size: 50px;
   text-align: center;
   text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
   transition: all linear 0.5s;
+  height: 10%;
 }
 .titl:hover {
   animation: shake 0.5s;
@@ -182,15 +185,15 @@ a {
 /*My Form - Регистрация*/
 
 /* Всплывающая форма-скрыта по умолчанию */
-.form-popup {
+/* .form-popup {
   display: none;
   transform: translate(250px, 0px);
   position: fixed;
   margin: 0 auto;
-}
+} */
 
 /* Добавить стили для контейнера формы */
-.form-container {
+/* .form-container {
   max-width: 300px;
   padding: 8px;
   background-color: #9ebdb8;
@@ -200,10 +203,10 @@ a {
 .form-container:hover {
   background-color: #81bcb4;
   transition: 1s linear;
-}
+} */
 
 /* Поля ввода полной ширины */
-.form-container input[type="text"],
+/* .form-container input[type="text"],
 .form-container input[type="password"] {
   width: 90%;
   padding: 10px;
@@ -211,17 +214,17 @@ a {
   border: none;
   background: #f5f5dc;
   border-radius: 20px;
-}
+} */
 
 /* Когда входы получают фокус, сделайте что-нибудь */
-.form-container input[type="text"]:focus,
+/* .form-container input[type="text"]:focus,
 .form-container input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
-}
+} */
 
 /* Установите стиль для кнопки отправить/войти */
-.form-container .btn {
+/* .form-container .btn {
   background-color: #4caf50;
   color: white;
   padding: 16px 20px;
@@ -231,22 +234,22 @@ a {
   margin-bottom: 10px;
   opacity: 0.8;
   border-radius: 20px;
-}
+} */
 
 /* Добавить красный цвет фона для кнопки "Отмена" */
-.form-container .cancel {
+/* .form-container .cancel {
   background-color: rgb(192, 66, 66);
-}
+} */
 
 /* Добавить некоторые эффекты наведения на кнопки */
-.form-container .btn:hover,
+/* .form-container .btn:hover,
 .open-button:hover {
   opacity: 1;
-}
+} */
 
 /*Footer*/
 footer {
-  height: 2em;
+  height: 10%;
   padding: 1em 5%;
   color: #fff;
   background-color: #b3563d;
