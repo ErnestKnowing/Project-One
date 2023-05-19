@@ -254,7 +254,10 @@ a {
 } */
 
 .one {
-  background: rgb(255, 115, 0);
+  background: #26ad9b;
+}
+.one:hover{
+  border: 2px solid white;
 }
 .two {
   background: pink;
@@ -271,17 +274,24 @@ a {
 .six {
   background-color: green;
 }
+.seven{
+  background-color: rgb(255, 208, 0);
+}
+.eigth{
+  background-color: rgb(12, 161, 62);
+}
 .main{
   display: flex;
   flex-wrap: wrap;
   height: 65%;
+  align-content:center;
 }
 
 .all-box {
-  width: 25%;
-  height: 50%;
-  margin: 10px;
-  border: 2px solid blue;
+  width: 24%;
+  height: 35%;
+  margin: 5px;
+  border-radius: 20px;
 }
 
 /*Footer*/
@@ -299,7 +309,7 @@ footer:hover {
 }
 .navigationFooter {
   color: #fff;
-  height: 7%;
+  height: 100%;
 }
 .navigationFooter:hover {
   color: #41b3a3;
@@ -309,7 +319,7 @@ footer:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7%;
+  height: 100%;
 }
 svg{
   height: 16px;
@@ -317,11 +327,11 @@ svg{
 }
 
 .social{
-  height: 7%;
+  height: 100%;
 }
 .support{
-  height: 7%;
+  height: 100%;
 }
 .data{
-  height: 7%;
+  height: 100%;
 }
