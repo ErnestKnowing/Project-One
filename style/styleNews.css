@@ -255,30 +255,38 @@ a {
 
 .one {
   background: #26ad9b;
+  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
 }
 .one:hover{
-  border: 2px solid white;
+  border: 5px solid white;
 }
 .two {
   background: pink;
+  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
 }
 .three {
   background: yellow;
+  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
 }
 .four {
   background-color: red;
+  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
 }
 .five {
   background-color: blue;
+  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
 }
 .six {
   background-color: green;
+  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
 }
 .seven{
   background-color: rgb(255, 208, 0);
+  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
 }
 .eigth{
   background-color: rgb(12, 161, 62);
+  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
 }
 .main{
   display: flex;
