@@ -100,10 +100,10 @@ header nav a:last-child {
     text-align: center;
   }
 }
-nav{
-  height:100%;
+nav {
+  height: 100%;
 }
-.material-symbols-outlined{
+.material-symbols-outlined {
   height: 100%;
 }
 .navigationHeader {
@@ -255,44 +255,58 @@ a {
 
 .one {
   background: #26ad9b;
-  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
-}
-.one:hover{
-  border: 5px solid white;
+  box-shadow: 1px 6px 1px rgba(0, 0, 0, 0.2);
+  transition: all linear 0.5s;
 }
 .two {
   background: pink;
-  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
+  box-shadow: 1px 6px 1px rgba(0, 0, 0, 0.2);
 }
 .three {
   background: yellow;
-  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
+  box-shadow: 1px 6px 1px rgba(0, 0, 0, 0.2);
 }
 .four {
   background-color: red;
-  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
+  box-shadow: 1px 6px 1px rgba(0, 0, 0, 0.2);
 }
 .five {
   background-color: blue;
-  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
+  box-shadow: 1px 6px 1px rgba(0, 0, 0, 0.2);
 }
 .six {
   background-color: green;
-  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
+  box-shadow: 1px 6px 1px rgba(0, 0, 0, 0.2);
 }
-.seven{
+.seven {
   background-color: rgb(255, 208, 0);
-  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
+  box-shadow: 1px 6px 1px rgba(0, 0, 0, 0.2);
 }
-.eigth{
+.eigth {
   background-color: rgb(12, 161, 62);
-  box-shadow: 1px 6px 1px  rgba(0, 0, 0, 0.2)
+  box-shadow: 1px 6px 1px rgba(0, 0, 0, 0.2);
 }
-.main{
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover,
+.seven:hover,
+.eigth:hover {
+  border: 3px solid white;
+  transition: 1s linear;
+
+  /* background-image: url(../ar.jpg); */
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.main {
   display: flex;
   flex-wrap: wrap;
   height: 65%;
-  align-content:center;
+  align-content: center;
 }
 
 .all-box {
@@ -329,17 +343,17 @@ footer:hover {
   align-items: center;
   height: 100%;
 }
-svg{
+svg {
   height: 16px;
   width: 16px;
 }
 
-.social{
+.social {
   height: 100%;
 }
-.support{
+.support {
   height: 100%;
 }
-.data{
+.data {
   height: 100%;
 }
