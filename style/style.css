@@ -581,3 +581,22 @@ footer:hover {
 .open-button:hover {
   opacity: 1;
 }
+
+
+@media (max-width: 900px) {
+  .left {
+    display: none;
+  }
+  .right{
+    display: none;
+  }
+  img{
+    display: none;
+  }
+  nav{
+    display: none;
+  }
+  .navigationHeader{
+    display: none;
+  }
+}
